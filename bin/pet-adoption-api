@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+#this is the executable. It collects all the necessary files to run your application on another machine. 
+require_relative "../lib/environment"
+
+API.get_pets
